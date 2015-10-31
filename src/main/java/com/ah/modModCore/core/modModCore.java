@@ -21,7 +21,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 public class modModCore
 {
 	
-	public static final String modName = "Modular Modification: Core";
+    public static final String modName = "Modular Modification: Core";
     public static final String modID = "modModCore";
     public static final String version = "0.1.3a";
     
