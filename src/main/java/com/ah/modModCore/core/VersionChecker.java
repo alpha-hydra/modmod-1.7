@@ -21,7 +21,7 @@ public class VersionChecker implements Runnable
 		InputStream in = null;
 		try 
 		{
-			in = new URL("https://github.com/alpha-hydra/modmod-1.7/blob/master/versionfile").openStream();	
+			in = new URL("https://raw.githubusercontent.com/alpha-hydra/modmod-1.7/master/versionfile.txt").openStream();	
 		}
 		
 		catch (MalformedURLException event) 
