@@ -7,13 +7,13 @@ package com.ah.modModCore.item;
 public class MetadataItem extends Item
 {
 
-	public MetadataItem(String unlocalizedName)
+	public MetadataItem(String unlocalizedName, int noOfVariants)
 	{
   
-    	super();
-    	this.setHasSubtypes(true);
-    	this.setUnlocalizedName(unlocalizedName);
-    	this.setCreativeTab(creativeTabs.tabMaterials);
+    		super();
+    		this.setHasSubtypes(true);
+    		this.setUnlocalizedName(unlocalizedName);
+    		this.setCreativeTab(creativeTabs.tabMaterials);
   
   	}
   	
@@ -23,7 +23,7 @@ public class MetadataItem extends Item
   	public void registerIcons(IIconRegister reg)
   	{
   	
-  		for(int i = 0, i < 10, i++)
+  		for(int i = 0, i < this.noOfVariants, i++)
   		{
   		
   			this.icons[i] = reg.registerIcon(Main.ID + ":multitexture_" + i);
