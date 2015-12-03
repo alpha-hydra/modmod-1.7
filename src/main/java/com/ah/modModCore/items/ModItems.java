@@ -31,10 +31,10 @@ public final class ModItems
 		GameRegistry.registerItem(dustNeodymium = new Item().setUnlocalizedName("dustNeodymium").setCreativeTab(CreativeTabs.tabMaterials).setTextureName(modModCore.modID + ":dustNeodymium"), "dustNeodymium");
 		GameRegistry.registerItem(dustSulphur = new Item().setUnlocalizedName("dustSulphur").setCreativeTab(CreativeTabs.tabMaterials).setTextureName(modModCore.modID + ":dustSulphur"), "dustSulphur");
 		
-		GameRegistry.registerItem(gear = new MetadataItem("gear"), "gear");
-		GameRegistry.registerItem(plate = new MetadataItem("plate"), "plate");
-		GameRegistry.registerItem(rod = new MetadataItem("rod"), "rod");
-		GameRegistry.registerItem(cylinder = new MetadataItem("cylinder"), "cylinder");
+		GameRegistry.registerItem(gear = new MetadataItem("gear", 9), "gear");
+		GameRegistry.registerItem(plate = new MetadataItem("plate", 9), "plate");
+		GameRegistry.registerItem(rod = new MetadataItem("rod", 9), "rod");
+		GameRegistry.registerItem(cylinder = new MetadataItem("cylinder", 9), "cylinder");
 	}
 
 }
