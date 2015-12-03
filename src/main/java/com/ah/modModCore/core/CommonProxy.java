@@ -13,13 +13,17 @@ public class CommonProxy
 	
 	public void preInit(FMLPreInitializationEvent event)
 	{
+		
 		ModBlocks.init();
 		ModItems.init();
 		ModCrafting.init();
+		
 	}
 	
 	public void init(FMLInitializationEvent event)
 	{
+		
+		GameRegistry.registerWorldGenerator(new ModWorldGen(), 0);
 		
 	}
 	
