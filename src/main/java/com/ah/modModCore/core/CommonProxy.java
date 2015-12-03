@@ -24,6 +24,7 @@ public class CommonProxy
 	{
 		
 		GameRegistry.registerWorldGenerator(new ModWorldGen(), 0);
+		OreDict.init();
 		
 	}
 	
