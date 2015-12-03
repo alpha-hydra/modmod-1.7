@@ -52,3 +52,6 @@ item.cylinder_5.name=Nickel Cylinder
 item.cylinder_6.name=Platinum Cylinder
 item.cylinder_7.name=Titanium Cylinder
 item.cylinder_8.name=Aluminium Cylinder
+
+itemGroup.modModMat=ModMod Materials
+itemGroup.modModComp=ModMod Components
