@@ -14,6 +14,7 @@ public class stoneBlockTemplate extends Block
 		this.setBlockName(unlocalizedName);
 		this.setBlockTextureName(modModCore.modID + ":" + unlocalizedName);
 		this.setCreativeTab(CreativeTabs.tabBlock);
+		this.setCreativeTab(CreativeTabs.tabModModMat);
 		this.setHardness(hardness);
 		this.setResistance(resistance);
 		this.setLightLevel(lightLevel);
