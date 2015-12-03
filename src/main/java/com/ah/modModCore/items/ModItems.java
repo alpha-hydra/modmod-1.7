@@ -17,7 +17,7 @@ public final class ModItems
 	public static Item ingotPlatinum;
 	
 	public static Item dustNeodymium;
-	public static Item dustSulfur;
+	public static Item dustSulphur;
 	
 	public static void init()
 	{
@@ -29,7 +29,7 @@ public final class ModItems
 		GameRegistry.registerItem(ingotPlatinum = new Item().setUnlocalizedName("ingotPlatinum").setCreativeTab(CreativeTabs.tabMaterials).setTextureName(modModCore.modID + ":ingotPlatinum"), "ingotPlatinum");
 		
 		GameRegistry.registerItem(dustNeodymium = new Item().setUnlocalizedName("dustNeodymium").setCreativeTab(CreativeTabs.tabMaterials).setTextureName(modModCore.modID + ":dustNeodymium"), "dustNeodymium");
-		GameRegistry.registerItem(dustSulfur = new Item().setUnlocalizedName("dustSulfur").setCreativeTab(CreativeTabs.tabMaterials).setTextureName(modModCore.modID + ":dustSulfur"), "dustSulfur");
+		GameRegistry.registerItem(dustSulphur = new Item().setUnlocalizedName("dustSulphur").setCreativeTab(CreativeTabs.tabMaterials).setTextureName(modModCore.modID + ":dustSulphur"), "dustSulphur");
 	}
 
 }
