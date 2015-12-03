@@ -14,6 +14,7 @@ public class MetadataItem extends Item
     		this.setHasSubtypes(true);
     		this.setUnlocalizedName(unlocalizedName);
     		this.setCreativeTab(creativeTabs.tabMaterials);
+    		this.setCreativeTab(CreativeTabs.tabModModComp)
   
   	}
   	
