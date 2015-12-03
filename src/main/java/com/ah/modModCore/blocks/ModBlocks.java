@@ -17,7 +17,7 @@ public final class ModBlocks
 	public static Block oreTitanium;
 	
 	public static Block oreNeodymium;
-	public static Block oreSulfur;
+	public static Block oreSulphur;
 	
 	public static void init()
 	{
@@ -29,7 +29,7 @@ public final class ModBlocks
 		GameRegistry.registerBlock(oreTitanium = new stoneBlockTemplate("oreTitanium", Material.rock, 2.0F, 6.0F, 0.0F, 3), "oreTitanium");
 		
 		GameRegistry.registerBlock(oreNeodymium = new dustOreTemplate("oreNeodymium", Material.rock, 2.0F, 6.0F, 0.0F, 3, ModItems.dustNeodymium, 2, 4), "oreNeodymium");
-		GameRegistry.registerBlock(oreSulfur = new dustOreTemplate("oreSulfur", Material.rock, 2.0F, 6.0F, 0.0F, 3, ModItems.dustSulfur, 1, 3), "oreSulfur");
+		GameRegistry.registerBlock(oreSulphur = new dustOreTemplate("oreSulphur", Material.rock, 2.0F, 6.0F, 0.0F, 3, ModItems.dustSulphur, 1, 3), "oreSulphur");
 	}
 	
 }
