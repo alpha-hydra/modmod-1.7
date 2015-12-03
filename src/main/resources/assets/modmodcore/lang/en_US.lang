@@ -5,7 +5,7 @@ tile.oreTin.name=Tin Ore
 tile.oreTitanium.name=Titanium Ore
 tile.orePlatinum.name=Platinum Ore
 tile.oreNeodymium.name=Neodymium Ore
-tile.oreSulphur.name=Sulphur Ore
+tile.oreSulphur.name=Sulfur Ore
 
 item.ingotNickel.name=Nickel Ingot
 item.ingotAluminium.name=Aluminium Ingot
@@ -14,7 +14,7 @@ item.ingotTin.name=Tin Ingot
 item.ingotTitanium.name=Titanium Ingot
 item.ingotPlatinum.name=Platinum Ingot
 item.dustNeodymium.name=Neodymium Dust
-item.dustSulphur.name=Sulphur Dust
+item.dustSulphur.name=Sulfur Dust
 
 item.gear_0.name=Stone Gear
 item.gear_1.name=Iron Gear
