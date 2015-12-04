@@ -16,6 +16,7 @@ public class OreDict()
 		OreDictionary.RegisterOre("ingotPlatinum", modItems.ingotPlatinum)
 		OreDictionary.RegisterOre("ingotAluminium", modItems.ingotAluminium)
 		OreDictionary.RegisterOre("ingotTitanium", modItems.ingotTitanium)
+		OreDictionary.RegisterOre("ingotBrick", modItems.terracotta)
 	
 		OreDictionary.RegisterOre("dustNeodymium", modItems.dustNeodymium)
 		OreDictionary.RegisterOre("dustSulphur", modItems.dustSulphur)
