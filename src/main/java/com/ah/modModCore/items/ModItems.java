@@ -27,14 +27,22 @@ public final class ModItems
 		GameRegistry.registerItem(ingotNickel = new Item().setUnlocalizedName("ingotNickel").setCreativeTab(CreativeTabs.tabMaterials).setCreativeTab(CreativeTabs.tabModModMat).setTextureName(modModCore.modID + ":ingotNickel"), "ingotNickel");
 		GameRegistry.registerItem(ingotTitanium = new Item().setUnlocalizedName("ingotTitanium").setCreativeTab(CreativeTabs.tabMaterials).setCreativeTab(CreativeTabs.tabModModMat).setTextureName(modModCore.modID + ":ingotTitanium"), "ingotTitanium");
 		GameRegistry.registerItem(ingotPlatinum = new Item().setUnlocalizedName("ingotPlatinum").setCreativeTab(CreativeTabs.tabMaterials).setCreativeTab(CreativeTabs.tabModModMat).setTextureName(modModCore.modID + ":ingotPlatinum"), "ingotPlatinum");
+		GameRegistry.registerItem(terracottaUnfired = new Item().setUnlocalizedName("terracottaUnfired").setCreativeTab(CreativeTabs.tabMaterials).setCreativeTab(CreativeTabs.tabModModMat).setTextureName(modModCore.modID + ":terracottaUnfired"), "terracottaUnfired");
+		GameRegistry.registerItem(terracotta = new Item().setUnlocalizedName("terracotta").setCreativeTab(CreativeTabs.tabMaterials).setCreativeTab(CreativeTabs.tabModModMat).setTextureName(modModCore.modID +":terracotta"), "terracotta");
 		
 		GameRegistry.registerItem(dustNeodymium = new Item().setUnlocalizedName("dustNeodymium").setCreativeTab(CreativeTabs.tabMaterials).setCreativeTab(CreativeTabs.tabModModMat).setTextureName(modModCore.modID + ":dustNeodymium"), "dustNeodymium");
 		GameRegistry.registerItem(dustSulphur = new Item().setUnlocalizedName("dustSulphur").setCreativeTab(CreativeTabs.tabMaterials).setCreativeTab(CreativeTabs.tabModModMat).setTextureName(modModCore.modID + ":dustSulphur"), "dustSulphur");
 		
-		GameRegistry.registerItem(gear = new MetadataItem("gear", 9), "gear");
-		GameRegistry.registerItem(plate = new MetadataItem("plate", 9), "plate");
-		GameRegistry.registerItem(rod = new MetadataItem("rod", 9), "rod");
-		GameRegistry.registerItem(cylinder = new MetadataItem("cylinder", 9), "cylinder");
+		GameRegistry.registerItem(gear = new MetadataItem("gear", 10), "gear");
+		GameRegistry.registerItem(plate = new MetadataItem("plate", 10), "plate");
+		GameRegistry.registerItem(rod = new MetadataItem("rod", 10), "rod");
+		GameRegistry.registerItem(pipe = new MetadataItem("pipe", 10), "pipe");
+		GameRegistry.registerItem(wire = new MetadataItem("wire", 10), "wire");
+		GameRegistry.registerItem(screw = new MetadataItem("screw", 10), "screw");
+		GameRegistry.registerItem(ball = new MetadataItem("ball", 10), "ball");
+		GameRegistry.registerItem(ring = new MetadataItem("ring", 10), "ring");
+		GameRegistry.registerItem(mouldUnfired = new MetadataItem("mouldUnfired", 8), "mouldUnfired");
+		GameRegistry.registerItem(mouldTerracotta = new MetadataItem("mouldTerracotta", 8), "mouldTerracotta");
 	}
 	
 	public static final CreativeTabs tabModModMat = new CreativeTabs("ModModMat")
@@ -44,7 +52,7 @@ public final class ModItems
 		public Item getTabIconItem()
 		{
 			
-			return this.ingotTitanium;
+			return this.ingotSteel;
 			
 		}
 		
@@ -57,14 +65,14 @@ public final class ModItems
 		public Item getTabIconItem()
 		{
 			
-			return this.gear;
+			return this.screw;
 		}
 		
 		@Override
 		public int getItemIconDamage()
 		{
 			
-			return 6;
+			return 9;
 			
 		}
 	}
